@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portofolio Refleksi Pengalaman Belajar PPG — Syahla Ayu Yasinta</title>
+  
+  <!-- Fonts: Plus Jakarta Sans for clean modern academic editorial feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top Progress Bar -->
+  <div class="progress-container" aria-hidden="true">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="site-header">
+    <div class="header-brand">
+      <span class="header-tag">PPG UMP</span>
+      <span class="header-divider">/</span>
+      <span class="header-title">E-Portofolio Refleksi Pengalaman Belajar PPG</span>
+    </div>
+    <div class="header-center">
+      <span class="current-slide-topic" id="slideTopicBadge">01 — Profil</span>
+    </div>
+    <div class="header-actions">
+      <span class="keyboard-hint" title="Gunakan tombol panah keyboard untuk navigasi">
+        <kbd class="key-cap">←</kbd> <kbd class="key-cap">→</kbd> Navigasi
+      </span>
+      <button class="btn-icon" id="fullscreenBtn" title="Mode Layar Penuh" aria-label="Toggle Layar Penuh">
+        <svg id="fsIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Presentation Carousel Viewport -->
+  <main class="presentation-container" id="presentationContainer">
+    <div class="slides-wrapper" id="slidesWrapper">
+
+      <!-- ===================================================
+           SLIDE 1: PROFIL
+      =================================================== -->
+      <section class="slide slide-profile active" id="slide-1" data-slide-index="0" data-topic="01 — Profil Calon Guru">
+        <div class="slide-inner">
+          <div class="profile-layout">
+            
+            <!-- Profile Info Column -->
+            <div class="profile-text-content">
+              <div class="editorial-meta-badge">
+                <span class="status-indicator"></span>
+                <span>Portofolio Akademik PPG Prajabatan</span>
+              </div>
+              
+              <h1 class="profile-name">Syahla Ayu Yasinta</h1>
+              <p class="profile-subtitle">Calon Guru Bahasa Indonesia <span class="bullet-sep">•</span> PPG UMP</p>
+              
+              <div class="academic-card">
+                <div class="info-grid">
+                  <div class="info-item">
+                    <span class="info-label">NIM</span>
+                    <span class="info-value">2501640511</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">Program Studi</span>
+                    <span class="info-value">Pendidikan Bahasa dan Sastra Indonesia</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">Universitas</span>
+                    <span class="info-value">Universitas Muhammadiyah Purwokerto</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">Program</span>
+                    <span class="info-value">Program Pendidikan Profesi Guru (PPG UMP)</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="quote-box profile-quote">
+                <div class="quote-icon" aria-hidden="true">“</div>
+                <p class="quote-text">
+                  Menjadi guru bukan hanya tentang menyampaikan materi, tetapi juga tentang memahami peserta didik, mendampingi proses perkembangan mereka, dan terus belajar untuk menciptakan pembelajaran yang lebih baik.
+                </p>
+              </div>
+            </div>
+
+            <!-- Profile Photo Column -->
+            <div class="profile-media-column">
+              <div class="image-frame portrait-frame">
+                <img src="foto 1.jpeg" alt="Syahla Ayu Yasinta - Mahasiswa PPG UMP" class="editorial-photo" loading="eager">
+                <div class="image-caption-tag">
+                  <span>Dokumentasi 01</span>
+                  <span class="caption-divider">/</span>
+                  <span>Syahla Ayu Yasinta</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================
+           SLIDE 2: PANDANGAN TENTANG PENDIDIKAN DI INDONESIA
+      =================================================== -->
+      <section class="slide slide-perspective" id="slide-2" data-slide-index="1" data-topic="02 — Pandangan Pendidikan">
+        <div class="slide-inner">
+          <div class="perspective-layout">
+            
+            <!-- Left Text Content -->
+            <div class="perspective-text-content">
+              <div class="slide-header-block">
+                <span class="section-number-tag">BAGIAN 02</span>
+                <h2 class="slide-headline">Pendidikan yang Memberi Ruang untuk Bertumbuh</h2>
+              </div>
+
+              <div class="lead-text-box">
+                <p>
+                  Setelah mengikuti rangkaian program PPG, saya memahami bahwa tugas guru bukan hanya menyampaikan materi, tetapi juga memahami peserta didik, mendampingi perkembangan mereka, serta menciptakan suasana belajar yang aman dan nyaman.
+                </p>
+                <p class="lead-strong">
+                  Menurut saya, pendidikan di Indonesia seharusnya memberikan kesempatan kepada setiap peserta didik untuk berkembang sesuai dengan kemampuan, kebutuhan, dan karakter masing-masing.
+                </p>
+              </div>
+
+              <!-- 3 Gagasan Utama -->
+              <div class="principles-list">
+                <div class="principle-item">
+                  <div class="principle-num">01</div>
+                  <div class="principle-body">
+                    <h3 class="principle-title">Menghargai Keberagaman</h3>
+                    <p class="principle-desc">Setiap peserta didik memiliki kemampuan, kebutuhan, dan kondisi yang berbeda.</p>
+                  </div>
+                </div>
+
+                <div class="principle-item">
+                  <div class="principle-num">02</div>
+                  <div class="principle-body">
+                    <h3 class="principle-title">Menghargai Proses</h3>
+                    <p class="principle-desc">Peserta didik perlu diberi kesempatan untuk mencoba, melakukan kesalahan, memperbaiki diri, dan berkembang.</p>
+                  </div>
+                </div>
+
+                <div class="principle-item">
+                  <div class="principle-num">03</div>
+                  <div class="principle-body">
+                    <h3 class="principle-title">Pembelajaran Bermakna</h3>
+                    <p class="principle-desc">Pembelajaran perlu terhubung dengan kehidupan sehari-hari dan memberi ruang bagi peserta didik untuk aktif belajar.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Refleksi PPL Note -->
+              <div class="ppl-reflection-box">
+                <span class="ppl-badge">Refleksi Pengalaman PPL</span>
+                <p class="ppl-text">
+                  “Pengalaman mengajar kelas VIII dan kelas VII menyadarkan saya bahwa pendekatan yang berhasil pada satu kelas belum tentu sesuai untuk kelas lain. Guru perlu memahami kondisi murid sebelum menentukan cara mengajar.”
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Photo Column -->
+            <div class="perspective-media-column">
+              <div class="image-frame portrait-tall-frame">
+                <img src="foto 2.jpeg" alt="Aktivitas Pembelajaran di Kelas PPL" class="editorial-photo" loading="lazy">
+                <div class="image-caption-tag">
+                  <span>Dokumentasi 02</span>
+                  <span class="caption-divider">/</span>
+                  <span>Praktik Pembelajaran di Kelas</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================
+           SLIDE 3: UPAYA MENJADI GURU PROFESIONAL
+      =================================================== -->
+      <section class="slide slide-professional" id="slide-3" data-slide-index="2" data-topic="03 — Guru Profesional">
+        <div class="slide-inner">
+          <div class="professional-layout">
+            
+            <div class="slide-header-block header-centered">
+              <span class="section-number-tag">BAGIAN 03</span>
+              <h2 class="slide-headline">Terus Belajar, Memahami, dan Memperbaiki</h2>
+              <p class="section-subtext">Upaya Berkelanjutan Membangun Kompetensi & Integritas Pendidik</p>
+            </div>
+
+            <div class="prof-content-grid">
+              
+              <!-- 5 Steps List -->
+              <div class="steps-column">
+                <div class="steps-list">
+                  
+                  <div class="step-card">
+                    <span class="step-num">01</span>
+                    <div class="step-content">
+                      <h3 class="step-title">Mengenal Peserta Didik</h3>
+                      <p class="step-desc">Memahami kemampuan awal, kebutuhan, minat, karakter, dan kondisi peserta didik sebelum merancang pembelajaran.</p>
+                    </div>
+                  </div>
+
+                  <div class="step-card">
+                    <span class="step-num">02</span>
+                    <div class="step-content">
+                      <h3 class="step-title">Merancang Pembelajaran yang Aktif</h3>
+                      <p class="step-desc">Memberikan kesempatan kepada peserta didik untuk berdiskusi, bekerja sama, mengamati, mencoba, dan menyampaikan pendapat.</p>
+                    </div>
+                  </div>
+
+                  <div class="step-card">
+                    <span class="step-num">03</span>
+                    <div class="step-content">
+                      <h3 class="step-title">Menggunakan Media secara Bijak</h3>
+                      <p class="step-desc">Memilih media dan teknologi sesuai kebutuhan pembelajaran, bukan sekadar agar kegiatan terlihat menarik.</p>
+                    </div>
+                  </div>
+
+                  <div class="step-card">
+                    <span class="step-num">04</span>
+                    <div class="step-content">
+                      <h3 class="step-title">Terbuka terhadap Masukan</h3>
+                      <p class="step-desc">Menerima masukan dari dosen, guru pamong, rekan sejawat, dan pengalaman mengajar sebagai bahan perbaikan.</p>
+                    </div>
+                  </div>
+
+                  <div class="step-card">
+                    <span class="step-num">05</span>
+                    <div class="step-content">
+                      <h3 class="step-title">Melakukan Refleksi</h3>
+                      <p class="step-desc">Meninjau kembali keterlibatan peserta didik, pemahaman mereka, kesulitan yang muncul, dan hal-hal yang perlu diperbaiki.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Media & Quote Column -->
+              <div class="prof-media-column">
+                <div class="image-frame landscape-medium-frame">
+                  <img src="foto 3.jpeg" alt="Interaksi Mengajar Guru Profesional" class="editorial-photo" loading="lazy">
+                  <div class="image-caption-tag">
+                    <span>Dokumentasi 03</span>
+                    <span class="caption-divider">/</span>
+                    <span>Proses Interaksi & Pembelajaran</span>
+                  </div>
+                </div>
+
+                <div class="key-statement-box">
+                  <div class="statement-marker"></div>
+                  <p class="statement-text">
+                    “Guru profesional bukan guru yang selalu benar atau selalu berhasil, tetapi guru yang mau belajar dari pengalaman dan terus memperbaiki diri.”
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================
+           SLIDE 4: RENCANA TINDAK LANJUT
+      =================================================== -->
+      <section class="slide slide-action-plan" id="slide-4" data-slide-index="3" data-topic="04 — Rencana Tindak Lanjut">
+        <div class="slide-inner">
+          <div class="action-plan-layout">
+            
+            <div class="slide-header-block header-centered">
+              <span class="section-number-tag">BAGIAN 04</span>
+              <h2 class="slide-headline">Tiga Langkah untuk Memulai Perjalanan sebagai Guru</h2>
+              <div class="connecting-sentence">
+                <p>“Ketiga langkah ini ingin saya jadikan kebiasaan, bukan sekadar rencana, agar saya terus berkembang bersama peserta didik.”</p>
+              </div>
+            </div>
+
+            <!-- Top Media Banner with Editorial Framing -->
+            <div class="plan-hero-media">
+              <div class="image-frame wide-banner-frame">
+                <img src="foto 4.jpeg" alt="Kolaborasi dan Suasana Belajar Peserta Didik" class="editorial-photo" loading="lazy">
+                <div class="image-caption-tag">
+                  <span>Dokumentasi 04</span>
+                  <span class="caption-divider">/</span>
+                  <span>Implementasi Pembelajaran Lapangan</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 Columns Plan -->
+            <div class="plans-grid">
+              
+              <div class="plan-card">
+                <div class="plan-card-header">
+                  <span class="plan-index">01</span>
+                  <h3 class="plan-title">Mengenal Murid dan Membangun Hubungan yang Baik</h3>
+                </div>
+                <div class="plan-card-body">
+                  <p>
+                    Saya akan menggunakan observasi dan asesmen awal untuk memahami kemampuan, karakter, minat, kebutuhan, dan kebiasaan belajar peserta didik. Saya juga ingin menciptakan suasana kelas yang membuat mereka merasa aman untuk bertanya, menjawab, mencoba, dan belajar dari kesalahan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="plan-card">
+                <div class="plan-card-header">
+                  <span class="plan-index">02</span>
+                  <h3 class="plan-title">Menyesuaikan Pembelajaran dengan Kondisi Murid</h3>
+                </div>
+                <div class="plan-card-body">
+                  <p>
+                    Saya akan merancang kegiatan yang melibatkan peserta didik secara langsung, memberikan contoh sesuai kebutuhan, serta memilih strategi, aktivitas, media, dan teknologi yang mendukung tujuan pembelajaran.
+                  </p>
+                </div>
+              </div>
+
+              <div class="plan-card">
+                <div class="plan-card-header">
+                  <span class="plan-index">03</span>
+                  <h3 class="plan-title">Terus Belajar dan Melakukan Refleksi</h3>
+                </div>
+                <div class="plan-card-body">
+                  <p>
+                    Saya akan membiasakan diri mengevaluasi pembelajaran setelah mengajar, mencatat hal-hal yang berhasil dan yang perlu diperbaiki, menerima masukan, mengikuti pelatihan, berdiskusi dengan guru lain, serta mencoba pendekatan yang sesuai.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================
+           SLIDE 5: PENUTUP
+      =================================================== -->
+      <section class="slide slide-closing" id="slide-5" data-slide-index="4" data-topic="05 — Refleksi Penutup">
+        <div class="slide-inner">
+          <div class="closing-layout">
+            
+            <!-- Left Text Content -->
+            <div class="closing-text-content">
+              <div class="slide-header-block">
+                <span class="section-number-tag">BAGIAN 05 — PENUTUP</span>
+                <h2 class="slide-headline">Terus Bertumbuh Bersama Murid</h2>
+              </div>
+
+              <div class="closing-paragraphs">
+                <p class="closing-p highlight-p">
+                  PPG membuat saya semakin memahami bahwa menjadi guru bukan tentang menjadi orang yang paling tahu, tetapi tentang mau terus belajar agar dapat mendampingi peserta didik dengan lebih baik.
+                </p>
+                
+                <p class="closing-p">
+                  Saya ingin menjadi guru Bahasa Indonesia yang tidak hanya mengajarkan materi, tetapi juga mampu memahami murid, menghargai proses mereka, menciptakan ruang belajar yang aman, dan terus memperbaiki diri melalui setiap pengalaman.
+                </p>
+
+                <p class="closing-p ending-p">
+                  Bagi saya, menjadi guru adalah perjalanan belajar yang tidak pernah benar-benar selesai. Saya ingin terus bertumbuh, bersama murid-murid yang kelak saya dampingi.
+                </p>
+              </div>
+
+              <!-- Text Signature Block -->
+              <div class="digital-signature-block">
+                <div class="sig-line"></div>
+                <div class="sig-name">Syahla Ayu Yasinta</div>
+                <div class="sig-affiliation">Pendidikan Bahasa dan Sastra Indonesia <span class="bullet-sep">|</span> PPG UMP</div>
+              </div>
+            </div>
+
+            <!-- Right Media Column -->
+            <div class="closing-media-column">
+              <div class="image-frame closing-frame">
+                <img src="foto 5.jpeg" alt="Refleksi Akhir Perjalanan Belajar PPG" class="editorial-photo" loading="lazy">
+                <div class="image-caption-tag">
+                  <span>Dokumentasi 05</span>
+                  <span class="caption-divider">/</span>
+                  <span>Refleksi Penutup PPG UMP</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <footer class="site-footer">
+    <div class="footer-nav-container">
+      
+      <!-- Prev Button -->
+      <div class="nav-btn-col left-col">
+        <button class="nav-control-btn btn-prev" id="prevBtn" aria-label="Slide Sebelumnya">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          <span class="btn-text">Sebelumnya</span>
+        </button>
+      </div>
+
+      <!-- Center Slide Numbers & Indicator -->
+      <div class="nav-center-col">
+        <nav class="slide-pagination" aria-label="Daftar Slide Portofolio">
+          <button class="page-num-btn active" data-index="0" aria-label="Buka Slide 1: Profil">
+            <span class="num">01</span>
+            <span class="num-label">Profil</span>
+          </button>
+          <button class="page-num-btn" data-index="1" aria-label="Buka Slide 2: Pandangan Pendidikan">
+            <span class="num">02</span>
+            <span class="num-label">Pandangan</span>
+          </button>
+          <button class="page-num-btn" data-index="2" aria-label="Buka Slide 3: Guru Profesional">
+            <span class="num">03</span>
+            <span class="num-label">Kompetensi</span>
+          </button>
+          <button class="page-num-btn" data-index="3" aria-label="Buka Slide 4: Rencana Tindak Lanjut">
+            <span class="num">04</span>
+            <span class="num-label">Rencana</span>
+          </button>
+          <button class="page-num-btn" data-index="4" aria-label="Buka Slide 5: Penutup">
+            <span class="num">05</span>
+            <span class="num-label">Penutup</span>
+          </button>
+        </nav>
+        
+        <div class="slide-fraction-badge" id="slideFraction">01 / 05</div>
+      </div>
+
+      <!-- Next Button -->
+      <div class="nav-btn-col right-col">
+        <button class="nav-control-btn btn-next" id="nextBtn" aria-label="Slide Selanjutnya">
+          <span class="btn-text" id="nextBtnText">Selanjutnya</span>
+          <svg id="nextBtnIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
